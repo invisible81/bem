@@ -106,7 +106,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item diagram">
+            <li class="studio__item diagram">
               <div class="studio__icon">
                 <svg class="icon-diagram" width="70px" height="70px">
                   <use href="./icons/sprite.svg#diagram"></use>
@@ -143,7 +143,7 @@
                 width="370"
                 alt="пишет код на планшете используя клавиатуру"
               />
-              <div class="work__descr-block ">
+              <div class="work__descr-block">
                 <p class="work__descr">Десктопные приложения</p>
               </div>
             </li>
@@ -418,7 +418,7 @@
           >Web<span class="footer__logo-second">Studio</span>
         </a>
         <address class="footer__address">г. Киев, пр-т Леси Украинки, 26</address>
-        <address>
+        <address class="footer__address">
           <ul class="footer__contact-list list">
             <li class="footer__item">
               <a href="mailto:info@example.com" class="footer-mail-link link"
@@ -489,48 +489,48 @@
     <div  class="backdrop is-hidden" data-modal>
       <div class="modal">
         
-        <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
+        <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
         
         <form class="form"> 
-          <label class="form-field">
-              <input type="text" class="form-input" name="name" id="name" autocomplete="no-autofill-please" placeholder=" " >
-              <span class="form-label">Имя</span>          
-              <svg class="icon-person icon-form" width="15px" height="15px">
+          <label class="form__field">
+              <input type="text" class="form__input" name="name" id="name" autocomplete="no-autofill-please" placeholder=" " >
+              <span class="form__label">Имя</span>          
+              <svg class="form__icon icon-person " width="15px" height="15px">
                 <use href="./icons/sprite.svg#person"></use>
               </svg>
           </label>
 
-          <label class="form-field">
-            <input type="tel" class="form-input" name="phone" id="phone" autocomplete="off" placeholder=" ">   
-            <span class="form-label">Телефон</span>         
-            <svg class="icon-phone icon-form" width="15px" height="15px">
+          <label class="form__field">
+            <input type="tel" class="form__input" name="phone" id="phone" autocomplete="off" placeholder=" ">   
+            <span class="form__label">Телефон</span>         
+            <svg class="form__icon icon-phone" width="15px" height="15px">
               <use href="./icons/sprite.svg#phone"></use>
             </svg>
           </label>
 
-          <label class="form-field">
-            <input type="email" class="form-input form-margin" name="mail" id="mail" autocomplete="off" placeholder=" ">      
-            <span class="form-label">Почта</span>      
-            <svg class="icon-email icon-form" width="15px" height="15px">
+          <label class="form__field">
+            <input type="email" class="form__input form__margin" name="mail" id="mail" autocomplete="off" placeholder=" ">      
+            <span class="form__label">Почта</span>      
+            <svg class="form__icon icon-email" width="15px" height="15px">
               <use href="./icons/sprite.svg#email"></use>
             </svg>
           </label>
 
-          <label class="text-field form-field">
-            <span class="form-text">Комментарий</span>
-            <textarea name="comment" placeholder="Введите текст"></textarea>
+          <label class="field-comment form-field">
+            <span class="field-comment__text">Комментарий</span>
+            <textarea class="field-comment__textarea" name="comment" placeholder="Введите текст"></textarea>
           </label>
 
          
-              <label class="field">
-                <input class="checkbox" type="checkbox" name="topic" value="html">
-                <span class="icon"></span>
-               <span class="checkbox-lable">Соглашаюсь с рассылкой и принимаю <a class="checkbox-lable-link" href="">Условия договора</a></span>
+              <label class="field-agreement">
+                <input class="field-agreement__checkbox" type="checkbox" name="topic" value="html">
+                <span class="field-agreement__icon"></span>
+               <span class="field-agreement__lable">Соглашаюсь с рассылкой и принимаю <a class="field-agreement__link" href="">Условия договора</a></span>
               </label>
-              <button class="form-button" type="submit">Отправить</button>
+              <button class="form__button" type="submit">Отправить</button>
         </form>
 
-      <svg class="icon-close" data-modal-close width="30px" height="30px">
+      <svg class="modal__icon-close" data-modal-close width="30px" height="30px">
         <use href="./icons/sprite.svg#close"></use>
       </svg>
 
